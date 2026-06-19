@@ -1,7 +1,7 @@
 body{
     background-color: #0d1117 
 }
-@media (max width: 728px){
+@media (max-width: 728px){
     .barra{
         flex-direction: column;
         gap: 10px;
@@ -16,6 +16,9 @@ body{
     .botoes{
         width: 100%;
         justify-content: center;
+    }
+    h1{
+        padding-top: 70px
     }
 }
 .barra{
